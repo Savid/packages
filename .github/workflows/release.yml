@@ -23,8 +23,8 @@ jobs:
           name: target
           retention-days: 90
           path: |
-            !packages/**/node_modules
-            !packages/**/src
+            !**/node_modules
+            !**/src
             packages
 
   release_dry_run:
@@ -46,7 +46,7 @@ jobs:
       - name: Install deps
         run: npm ci
       - name: Release
-        run: npx multi-semantic-release --dry-run --debug --ignore-private-packages
+        run: rm .gitignore && npx multi-semantic-release --dry-run --debug --ignore-private-packages
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -75,7 +75,7 @@ jobs:
       - name: Install deps
         run: npm ci
       - name: Release
-        run: npx multi-semantic-release --ignore-private-packages
+        run: rm .gitignore && npx multi-semantic-release --ignore-private-packages
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
