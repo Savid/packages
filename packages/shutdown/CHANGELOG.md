@@ -1,3 +1,10 @@
+## @savid/shutdown [1.0.2](https://github.com/savid/packages/compare/@savid/shutdown@1.0.1...@savid/shutdown@1.0.2) (2022-08-22)
+
+
+### Bug Fixes
+
+* dist release path ([04af45c](https://github.com/savid/packages/commit/04af45cd96c77cf9f97bc1671949838f2c95eb7a))
+
 ## @savid/shutdown [1.0.1](https://github.com/savid/packages/compare/@savid/shutdown@1.0.0...@savid/shutdown@1.0.1) (2022-08-22)
 
 
