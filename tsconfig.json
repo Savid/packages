@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "lib": ["ESNext"],
+    "skipLibCheck": true,
+    "isolatedModules": false,
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "moduleResolution": "node",
+    "noUnusedParameters": true,
+    "outDir": "./dist",
+    "strict": false,
+    "target": "es5"
+  }
+}

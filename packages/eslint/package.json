@@ -1,0 +1,47 @@
+{
+  "name": "@savid/eslint",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Andrew Davis",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/savid/packages.git",
+    "directory": "packages/eslint"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@rushstack/eslint-patch": "1.1.4",
+    "@typescript-eslint/eslint-plugin": "5.33.0",
+    "@typescript-eslint/parser": "5.33.0",
+    "eslint": "8.21.0",
+    "eslint-config-airbnb-typescript": "17.0.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-import-resolver-typescript": "3.4.1",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jest": "26.8.2",
+    "eslint-plugin-prettier": "4.2.1"
+  },
+  "peerDependencies": {
+    "eslint": "8.x.x",
+    "typescript": "4.x.x",
+    "jest": "28.x.x"
+  }
+}
