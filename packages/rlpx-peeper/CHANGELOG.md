@@ -1,3 +1,10 @@
+## @savid/rlpx-peeper [1.0.6](https://github.com/savid/packages/compare/@savid/rlpx-peeper@1.0.5...@savid/rlpx-peeper@1.0.6) (2022-08-23)
+
+
+### Bug Fixes
+
+* eslint ([00e527f](https://github.com/savid/packages/commit/00e527f983d4fbe6e06e6920c16d4e9e3dc58574))
+
 ## @savid/rlpx-peeper [1.0.5](https://github.com/savid/packages/compare/@savid/rlpx-peeper@1.0.4...@savid/rlpx-peeper@1.0.5) (2022-08-23)
 
 
