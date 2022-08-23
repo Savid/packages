@@ -7,7 +7,7 @@ export default async ({
 }: {
   timeout?: number;
   enode: string;
-}): Promise<ETH66Status | { client?: string }> =>
+}): Promise<ETH66Status & { client?: string }> =>
   new Promise((res, rej) => {
     const url = new URL(enode);
     if (url.protocol !== 'enode:') {

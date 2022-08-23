@@ -334,12 +334,16 @@ class Peer extends EventEmitter {
           this.emit('client', payload[1].toString());
         } catch (error) {
           if (msgCode === PREFIXES.DISCONNECT) {
-            if (compressed) {
-              payload = arrToBufArr(RLP.decode(Uint8Array.from(origPayload)));
-            } else {
-              payload = arrToBufArr(
-                RLP.decode(Uint8Array.from(snappy.uncompress(payload as Buffer))),
-              );
+            try {
+              if (compressed) {
+                payload = arrToBufArr(RLP.decode(Uint8Array.from(origPayload)));
+              } else {
+                payload = arrToBufArr(
+                  RLP.decode(Uint8Array.from(snappy.uncompress(payload as Buffer))),
+                );
+              }
+            } catch (err) {
+              throw err instanceof Error ? err : new Error('unknown disconnect error');
             }
           } else {
             throw error instanceof Error ? error : new Error('unknown error');
