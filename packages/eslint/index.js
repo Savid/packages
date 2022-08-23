@@ -6,14 +6,6 @@ module.exports = {
     {
       files: ['*.ts', '*.js', '*.mjs'],
       plugins: ['@typescript-eslint', 'import', 'prettier', 'jest'],
-      env: {
-        browser: true,
-        commonjs: true,
-        es6: true,
-        jest: true,
-        node: true,
-        'jest/globals': true,
-      },
       extends: [
         'eslint:recommended',
         'plugin:@typescript-eslint/eslint-recommended',
