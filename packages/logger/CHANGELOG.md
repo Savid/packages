@@ -1,3 +1,10 @@
+## @savid/logger [1.0.4](https://github.com/savid/packages/compare/@savid/logger@1.0.3...@savid/logger@1.0.4) (2022-08-23)
+
+
+### Bug Fixes
+
+* ci ([42c24af](https://github.com/savid/packages/commit/42c24afe5bd8cf879528c4959bffc51c9c8cf166))
+
 ## @savid/logger [1.0.3](https://github.com/savid/packages/compare/@savid/logger@1.0.2...@savid/logger@1.0.3) (2022-08-22)
 
 
