@@ -1,6 +1,5 @@
 ## @savid/shutdown [1.0.3](https://github.com/savid/packages/compare/@savid/shutdown@1.0.2...@savid/shutdown@1.0.3) (2022-08-22)
 
-
 ### Bug Fixes
 
 * release paths ([f4442d6](https://github.com/savid/packages/commit/f4442d6d55b272ab0c157357d821296dd57baf8b))
