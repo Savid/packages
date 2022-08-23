@@ -32,14 +32,14 @@
   },
   "dependencies": {
     "@ethereumjs/devp2p": "5.0.0-beta.3",
-    "@ethereumjs/util": "8.0.0-beta.1",
+    "@ethereumjs/util": "8.0.0-beta.3",
     "bl": "5.0.0",
     "ethereum-cryptography": "1.1.2",
     "rlp": "3.0.0",
     "snappyjs": "0.7.0"
   },
   "devDependencies": {
-    "@types/node": "18.7.3",
+    "@types/node": "18.7.11",
     "typescript": "4.7.4"
   }
 }
