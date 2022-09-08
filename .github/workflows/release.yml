@@ -23,9 +23,9 @@ jobs:
           name: build
           retention-days: 90
           path: |
+            packages/
             !packages/**/node_modules
             !packages/**/src
-            packages
 
   release_dry_run:
     name: release dry run
