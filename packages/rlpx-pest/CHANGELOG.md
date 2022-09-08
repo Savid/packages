@@ -1,3 +1,10 @@
+# @savid/rlpx-pest [1.1.0](https://github.com/savid/packages/compare/@savid/rlpx-pest@1.0.6...@savid/rlpx-pest@1.1.0) (2022-09-08)
+
+
+### Features
+
+* update packages ([3221c55](https://github.com/savid/packages/commit/3221c5549fbed06055176876cd4fe20d099b4ce3))
+
 ## @savid/rlpx-pest [1.0.6](https://github.com/savid/packages/compare/@savid/rlpx-pest@1.0.5...@savid/rlpx-pest@1.0.6) (2022-08-23)
 
 
