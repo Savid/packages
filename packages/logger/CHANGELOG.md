@@ -1,3 +1,10 @@
+# @savid/logger [1.1.0](https://github.com/savid/packages/compare/@savid/logger@1.0.5...@savid/logger@1.1.0) (2022-09-08)
+
+
+### Features
+
+* update packages ([3221c55](https://github.com/savid/packages/commit/3221c5549fbed06055176876cd4fe20d099b4ce3))
+
 ## @savid/logger [1.0.5](https://github.com/savid/packages/compare/@savid/logger@1.0.4...@savid/logger@1.0.5) (2022-08-23)
 
 
