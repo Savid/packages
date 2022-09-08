@@ -1,3 +1,10 @@
+# @savid/eslint [1.1.0](https://github.com/savid/packages/compare/@savid/eslint@1.0.2...@savid/eslint@1.1.0) (2022-09-08)
+
+
+### Features
+
+* update packages ([3221c55](https://github.com/savid/packages/commit/3221c5549fbed06055176876cd4fe20d099b4ce3))
+
 ## @savid/eslint [1.0.2](https://github.com/savid/packages/compare/@savid/eslint@1.0.1...@savid/eslint@1.0.2) (2022-08-23)
 
 
