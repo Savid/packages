@@ -31,15 +31,15 @@
     "access": "public"
   },
   "dependencies": {
-    "@ethereumjs/devp2p": "5.0.0-beta.3",
-    "@ethereumjs/util": "8.0.0-beta.3",
+    "@ethereumjs/devp2p": "5.0.0",
+    "@ethereumjs/util": "8.0.0",
     "bl": "5.0.0",
     "ethereum-cryptography": "1.1.2",
     "rlp": "3.0.0",
     "snappyjs": "0.7.0"
   },
   "devDependencies": {
-    "@types/node": "18.7.11",
-    "typescript": "4.7.4"
+    "@types/node": "18.7.16",
+    "typescript": "4.8.2"
   }
 }
