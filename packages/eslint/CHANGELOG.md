@@ -1,3 +1,10 @@
+# @savid/eslint [1.2.0](https://github.com/savid/packages/compare/@savid/eslint@1.1.0...@savid/eslint@1.2.0) (2022-09-11)
+
+
+### Features
+
+* **eslint:** support jest 29 ([61074a0](https://github.com/savid/packages/commit/61074a02e40b1e1caa8fdde9cd8de31303a4e3e3))
+
 # @savid/eslint [1.1.0](https://github.com/savid/packages/compare/@savid/eslint@1.0.2...@savid/eslint@1.1.0) (2022-09-08)
 
 
