@@ -68,13 +68,7 @@ const wrapError = (error: Error, code: ErrorCode) => {
   return wrappedError;
 };
 
-export default async function pest({
-  enr: enrTxt,
-  timeout = 30_000,
-}: {
-  enr: string;
-  timeout?: number;
-}) {
+export default async function pest({ enr: enrTxt }: { enr: string }) {
   let peerId: Awaited<ReturnType<typeof createSecp256k1PeerId>>;
   try {
     peerId = await createSecp256k1PeerId();
@@ -188,9 +182,6 @@ export default async function pest({
   // handle remote status
   try {
     await pipe(conn.source, async (source) => {
-      const timeoutTimer = setTimeout(() => {
-        throw new Error('timed out');
-      }, timeout);
       /*
        * Depending on the client implementation, a single chunk
        * may include 1 or more stages of the status message.
@@ -283,7 +274,6 @@ export default async function pest({
           };
         }
       }
-      clearTimeout(timeoutTimer);
     });
   } catch (error) {
     await cleanupDialerNode();

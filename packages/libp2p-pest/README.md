@@ -39,8 +39,6 @@ try {
 function pest(options: {
   // ETHEREUM NODE RECORDS (ENRS) https://ethereum.org/en/developers/docs/networking-layer/network-addresses/#enr
   enr: string;
-  // connection timeout
-  timeout?: number;
 }): Response;
 
 // status https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/p2p-interface.md#status
