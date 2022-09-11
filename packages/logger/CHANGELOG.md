@@ -1,3 +1,10 @@
+# @savid/logger [1.2.0](https://github.com/savid/packages/compare/@savid/logger@1.1.0...@savid/logger@1.2.0) (2022-09-11)
+
+
+### Features
+
+* libp2p ([ba3c00b](https://github.com/savid/packages/commit/ba3c00b68fb7d6d27045f819fb0b64c3f2ab52a1))
+
 # @savid/logger [1.1.0](https://github.com/savid/packages/compare/@savid/logger@1.0.5...@savid/logger@1.1.0) (2022-09-08)
 
 
