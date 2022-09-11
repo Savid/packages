@@ -162,7 +162,7 @@ class Peer extends EventEmitter {
       }
     } catch (error) {
       this.emit(
-        'error',
+        'err',
         error instanceof Error
           ? wrapError(error, ErrorCode.INCOMING_DATA_STATE)
           : new PeerError('unknown', ErrorCode.INCOMING_DATA_STATE),
@@ -237,7 +237,7 @@ class Peer extends EventEmitter {
         )
       ) {
         this.emit(
-          'error',
+          'err',
           new PeerError('Failed to send hello message', ErrorCode.SEND_HELLO_MESSAGE_FAILED),
         );
         this.sendDisconnect(DISCONNECT_REASONS.NETWORK_ERROR);
@@ -323,7 +323,7 @@ class Peer extends EventEmitter {
               ? buffer2int(payload)
               : buffer2int((payload[0] as Buffer) ?? Buffer.from([0]));
             this.emit(
-              'error',
+              'err',
               new PeerError(
                 `remote disconnected: ${DISCONNECT_REASONS[reason]}`,
                 ErrorCode.PEER_DISCONNECTED,
@@ -354,7 +354,7 @@ class Peer extends EventEmitter {
       if (protocolName !== 'Peer') this.sendDisconnect(DISCONNECT_REASONS.SUBPROTOCOL_ERROR);
     } catch (error) {
       this.emit(
-        'error',
+        'err',
         error instanceof Error
           ? wrapError(error, ErrorCode.BODY_PARSE_FAILED)
           : new PeerError('failed to parse body payload', ErrorCode.BODY_PARSE_FAILED),
