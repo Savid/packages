@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "declaration": true,
+    "module": "NodeNext",
+    "lib": [
+      "ESNEXT"
+    ],
+    // errors in libp2p & @chainsafe 
+    "skipLibCheck": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "removeComments": true,
+    "isolatedModules": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "moduleResolution": "nodenext",
+    "baseUrl": "./",
+    "rootDir": "./src",
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "@types",
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,18 +1,18 @@
 {
-  "name": "@savid/rlpx-peeper",
-  "version": "1.1.0",
+  "name": "@savid/libp2p-peeper",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "license": "MIT",
   "author": "Andrew Davis",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/savid/packages.git",
-    "directory": "packages/rlpx-peeper"
+    "type" : "git",
+    "url" : "https://github.com/savid/packages.git",
+    "directory": "packages/libp2p-peeper"
   },
   "keywords": [
-    "rlpx"
+    "libp2p"
   ],
   "files": [
     "dist",
@@ -31,7 +31,15 @@
     "access": "public"
   },
   "dependencies": {
-    "@ethereumjs/devp2p": "5.0.0"
+    "@chainsafe/discv5": "1.1.1",
+    "@chainsafe/libp2p-noise": "8.0.1",
+    "@libp2p/bootstrap": "2.0.0",
+    "@libp2p/mdns": "3.0.0",
+    "@libp2p/mplex": "5.2.1",
+    "@libp2p/peer-id-factory": "1.0.18",
+    "@libp2p/tcp": "3.0.6",
+    "libp2p": "0.39.0",
+    "@multiformats/multiaddr": "10.4.1"
   },
   "devDependencies": {
     "@types/node": "18.7.16",
