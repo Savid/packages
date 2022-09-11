@@ -1,14 +1,14 @@
 {
   "name": "@savid/libp2p-pest",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "license": "MIT",
   "author": "Andrew Davis",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/savid/packages.git",
+    "type": "git",
+    "url": "https://github.com/savid/packages.git",
     "directory": "packages/libp2p-pest"
   },
   "keywords": [
