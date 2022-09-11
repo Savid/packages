@@ -1,3 +1,10 @@
+## @savid/rlpx-pest [1.2.2](https://github.com/savid/packages/compare/@savid/rlpx-pest@1.2.1...@savid/rlpx-pest@1.2.2) (2022-09-11)
+
+
+### Bug Fixes
+
+* **rlpx-pest:** unhandled error ([4370ffd](https://github.com/savid/packages/commit/4370ffd79e8b39911de5795dcc56a2d38559c42c))
+
 ## @savid/rlpx-pest [1.2.1](https://github.com/savid/packages/compare/@savid/rlpx-pest@1.2.0...@savid/rlpx-pest@1.2.1) (2022-09-11)
 
 
