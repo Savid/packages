@@ -1,6 +1,8 @@
 import { ETH66Status } from './eth66.js';
 import Peer from './peer.js';
 
+export { PeerError } from './peer.js';
+
 export default async ({
   enode,
   timeout = 30_000,
