@@ -1,3 +1,10 @@
+## @savid/rlpx-pest [1.2.1](https://github.com/savid/packages/compare/@savid/rlpx-pest@1.2.0...@savid/rlpx-pest@1.2.1) (2022-09-11)
+
+
+### Bug Fixes
+
+* **rlpx-pest:** export peer error type ([920b4b1](https://github.com/savid/packages/commit/920b4b16e5fbe0857e322a65931007413207f831))
+
 # @savid/rlpx-pest [1.2.0](https://github.com/savid/packages/compare/@savid/rlpx-pest@1.1.0...@savid/rlpx-pest@1.2.0) (2022-09-11)
 
 
