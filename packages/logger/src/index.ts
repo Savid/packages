@@ -65,11 +65,19 @@ const developmentFormat = printf((info) => {
   return `${title} ╞ ${ts} ╡ \n${colorize(Object(other), { pretty: true })}\n`;
 });
 
-export default createLogger({
-  format:
-    process.env.NODE_ENV === 'development'
-      ? combine(timestamp(), developmentFormat)
-      : combine(timestamp(), prettyPrint(), format.json()),
+const generateFormat = (customformatter?: ReturnType<typeof printf>) =>
+  combine(
+    ...[
+      timestamp(),
+      ...(customformatter ? [customformatter] : []),
+      ...(process.env.NODE_ENV === 'development'
+        ? [developmentFormat]
+        : [prettyPrint(), format.json()]),
+    ],
+  );
+
+const logger = createLogger({
+  format: generateFormat(),
   level: process.env.LOG_LEVEL || (process.env.NODE_ENV === 'development' ? 'debug' : 'warn'),
   transports: [
     new transports.Console({
@@ -78,3 +86,9 @@ export default createLogger({
   ],
   exitOnError: false,
 });
+
+export const injectFormatter = (formatter: ReturnType<typeof printf>) => {
+  logger.format = generateFormat(formatter);
+};
+
+export default logger;
