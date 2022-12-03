@@ -1,3 +1,10 @@
+## @savid/logger [1.4.3](https://github.com/savid/packages/compare/@savid/logger@1.4.2...@savid/logger@1.4.3) (2022-12-03)
+
+
+### Bug Fixes
+
+* **logger:** render left side extra fields ([e83f40a](https://github.com/savid/packages/commit/e83f40a332bfbc70733f8d56322ed70be99f92ef))
+
 ## @savid/logger [1.4.2](https://github.com/savid/packages/compare/@savid/logger@1.4.1...@savid/logger@1.4.2) (2022-12-03)
 
 
