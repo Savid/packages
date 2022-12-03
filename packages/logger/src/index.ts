@@ -19,6 +19,21 @@ const getContrastColour = (colour: string) => {
   return L > 0.179 ? '000000' : 'ffffff';
 };
 
+const stringToColour = (str: string) => {
+  let hash = 0;
+  for (let i = 0; i < str.length; i += 1) {
+    // eslint-disable-next-line no-bitwise
+    hash = str.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  let colour = '';
+  for (let i = 0; i < 3; i += 1) {
+    // eslint-disable-next-line no-bitwise
+    const value = (hash >> (i * 8)) & 0xff;
+    colour += `00${value.toString(16)}`.substr(-2);
+  }
+  return colour;
+};
+
 const developmentFormat = printf((info) => {
   const { level: logLevel, timestamp: ts, module, handler, method, ...other } = info;
   const leftItems = [] as { output: string; bgHex: string }[];
@@ -52,6 +67,27 @@ const developmentFormat = printf((info) => {
         output: chalk.hex(getContrastColour('b9bfca')).bgHex('b9bfca').bold(` ❓ ${logLevel} `),
         bgHex: 'b9bfca',
       });
+  }
+  if (module) {
+    const bgHex = stringToColour(module);
+    leftItems.push({
+      output: chalk.hex(getContrastColour(bgHex)).bgHex(bgHex).bold(` ${module} `),
+      bgHex,
+    });
+  }
+  if (handler) {
+    const bgHex = stringToColour(handler);
+    leftItems.push({
+      output: chalk.hex(getContrastColour(bgHex)).bgHex(bgHex).bold(` ${handler} `),
+      bgHex,
+    });
+  }
+  if (method) {
+    const bgHex = stringToColour(method);
+    leftItems.push({
+      output: chalk.hex(getContrastColour(bgHex)).bgHex(bgHex).bold(` ${method} `),
+      bgHex,
+    });
   }
   let title = '';
   for (let i = 0; i < leftItems.length; i += 1) {
