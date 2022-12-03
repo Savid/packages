@@ -1,3 +1,10 @@
+# @savid/logger [1.4.0](https://github.com/savid/packages/compare/@savid/logger@1.3.0...@savid/logger@1.4.0) (2022-12-03)
+
+
+### Features
+
+* **logger:** add ability to inject formatter ([e095e3e](https://github.com/savid/packages/commit/e095e3e9e943e8a8837922c006b62320b9061343))
+
 # @savid/logger [1.3.0](https://github.com/savid/packages/compare/@savid/logger@1.2.0...@savid/logger@1.3.0) (2022-12-03)
 
 
