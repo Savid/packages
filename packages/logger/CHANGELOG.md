@@ -1,3 +1,10 @@
+## @savid/logger [1.4.1](https://github.com/savid/packages/compare/@savid/logger@1.4.0...@savid/logger@1.4.1) (2022-12-03)
+
+
+### Bug Fixes
+
+* **logger:** add simple formatter ([680bd2e](https://github.com/savid/packages/commit/680bd2e6d8cb74dd4390b9d5165c5e863bc536e7))
+
 # @savid/logger [1.4.0](https://github.com/savid/packages/compare/@savid/logger@1.3.0...@savid/logger@1.4.0) (2022-12-03)
 
 
