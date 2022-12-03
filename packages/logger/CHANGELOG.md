@@ -1,3 +1,10 @@
+## @savid/logger [1.4.2](https://github.com/savid/packages/compare/@savid/logger@1.4.1...@savid/logger@1.4.2) (2022-12-03)
+
+
+### Bug Fixes
+
+* **logger:** add timestamp type to simple formatter ([5b2c49f](https://github.com/savid/packages/commit/5b2c49fe06437b069c52ee1db5e0071a2775a7ae))
+
 ## @savid/logger [1.4.1](https://github.com/savid/packages/compare/@savid/logger@1.4.0...@savid/logger@1.4.1) (2022-12-03)
 
 
