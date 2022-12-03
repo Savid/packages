@@ -1,3 +1,10 @@
+# @savid/logger [1.3.0](https://github.com/savid/packages/compare/@savid/logger@1.2.0...@savid/logger@1.3.0) (2022-12-03)
+
+
+### Features
+
+* cleanup packages ([b9bbdea](https://github.com/savid/packages/commit/b9bbdeaf06102585d2c7246bfce31145e88e962d))
+
 # @savid/logger [1.2.0](https://github.com/savid/packages/compare/@savid/logger@1.1.0...@savid/logger@1.2.0) (2022-09-11)
 
 
