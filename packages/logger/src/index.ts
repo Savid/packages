@@ -87,6 +87,9 @@ const logger = createLogger({
   exitOnError: false,
 });
 
+export const simpleFormatter = (templateFunction: Parameters<typeof printf>[0]) =>
+  printf(templateFunction);
+
 export const injectFormatter = (formatter: ReturnType<typeof printf>) => {
   logger.format = generateFormat(formatter);
 };
