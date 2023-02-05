@@ -1,3 +1,10 @@
+# @savid/logger [1.5.0](https://github.com/savid/packages/compare/@savid/logger@1.4.3...@savid/logger@1.5.0) (2023-02-05)
+
+
+### Features
+
+* **logger:** bump package versions ([da32b42](https://github.com/savid/packages/commit/da32b424f635483e00be5cb8da2648329a04d601))
+
 ## @savid/logger [1.4.3](https://github.com/savid/packages/compare/@savid/logger@1.4.2...@savid/logger@1.4.3) (2022-12-03)
 
 
