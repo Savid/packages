@@ -1,3 +1,10 @@
+# @savid/eslint [1.4.0](https://github.com/savid/packages/compare/@savid/eslint@1.3.0...@savid/eslint@1.4.0) (2023-02-05)
+
+
+### Features
+
+* **eslint:** bump package versions ([4522ddf](https://github.com/savid/packages/commit/4522ddf8a086550b95ed58bd33b6500cf0bc16e1))
+
 # @savid/eslint [1.3.0](https://github.com/savid/packages/compare/@savid/eslint@1.2.0...@savid/eslint@1.3.0) (2022-12-03)
 
 
