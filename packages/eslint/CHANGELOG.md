@@ -1,3 +1,10 @@
+# @savid/eslint [1.5.0](https://github.com/savid/packages/compare/@savid/eslint@1.4.0...@savid/eslint@1.5.0) (2023-04-16)
+
+
+### Features
+
+* typescript v5 ([fc4b818](https://github.com/savid/packages/commit/fc4b81832c30ddfdba1afe84dbe10a8330c78d01))
+
 # @savid/eslint [1.4.0](https://github.com/savid/packages/compare/@savid/eslint@1.3.0...@savid/eslint@1.4.0) (2023-02-05)
 
 
