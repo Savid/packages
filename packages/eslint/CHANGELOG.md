@@ -1,3 +1,10 @@
+## @savid/eslint [1.5.1](https://github.com/savid/packages/compare/@savid/eslint@1.5.0...@savid/eslint@1.5.1) (2023-04-16)
+
+
+### Bug Fixes
+
+* **eslint:** ts5 peer dep ([9f7e05f](https://github.com/savid/packages/commit/9f7e05fe95a447664beafdfea7191533cf56edbe))
+
 # @savid/eslint [1.5.0](https://github.com/savid/packages/compare/@savid/eslint@1.4.0...@savid/eslint@1.5.0) (2023-04-16)
 
 
