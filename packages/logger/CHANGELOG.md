@@ -1,3 +1,10 @@
+# @savid/logger [1.6.0](https://github.com/savid/packages/compare/@savid/logger@1.5.0...@savid/logger@1.6.0) (2023-04-16)
+
+
+### Features
+
+* typescript v5 ([fc4b818](https://github.com/savid/packages/commit/fc4b81832c30ddfdba1afe84dbe10a8330c78d01))
+
 # @savid/logger [1.5.0](https://github.com/savid/packages/compare/@savid/logger@1.4.3...@savid/logger@1.5.0) (2023-02-05)
 
 
